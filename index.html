@@ -4,15 +4,17 @@
   <meta http-equiv="Cache-Control" content="no-store">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Class 2 - Homework</title>
+  <title>Totoro</title>
   <link rel="stylesheet" href="assets/css/default.css?v=3.0">
   <link rel="shortcut icon" type="images/png" href="favicon.ico?v=1.0">
+  <script src="assets/js/vendor.js?v=1.0"></script>
+  <script src="assets/js/default.js?v=2.0"></script>
 </head>
 <body class="lm-body">
   <div class="lm-logo">
     <img src="./assets/images/Logo.png" >
   </div>
-  <div class="lm-longmao-container">
+  <div class="lm-longmao-container" id="lm-longmao-toggle">
     <div class="lm-longmao lm-longmao--bw">
       <img src="./assets/images/longmao.png">
     </div>
@@ -20,7 +22,14 @@
       <img src="./assets/images/longmaocolour.png" >
     </div>
   </div>
-  <div class="lm-xiaomao-container">
+
+  <div class="lm-longmao-popup" id="lm-longmao-toggle">
+    <div class="lm-longmao-popup-image">
+      <img src="./assets/images/longmaocolour2page.png" alt="">
+    </div>
+  </div>
+
+  <div class="lm-xiaomao-container" id="lm-xiaomao-toggle">
     <div class="lm-xiaomao lm-xiaomao--bw">
       <img src="./assets/images/xiaomao.png" >
     </div>
@@ -28,7 +37,14 @@
       <img src="./assets/images/xiaomaocolour.png" >
     </div>
   </div>
-  <div class="lm-jiejie-container">
+
+  <div class="lm-xiaomao-popup" id="lm-xiaomao-toggle">
+    <div class="lm-xiaomao-popup-image">
+      <img src="./assets/images/xiaomaocolour2page.png" alt="">
+    </div>
+  </div>
+
+  <div class="lm-jiejie-container" id="lm-jiejie-toggle">
     <div class="lm-jiejie lm-jiejie--bw">
       <img src="./assets/images/jiejie.png">
     </div>
@@ -36,8 +52,15 @@
       <img src="./assets/images/jiejiecolour.png" >
       </div>
     </div>
+  </div>
 
-  <div class="lm-meimei-container">
+    <div class="lm-jiejie-popup" id="lm-jiejie-toggle">
+      <div class="lm-jiejie-popup-image">
+        <img src="./assets/images/jiejiecolour2page.png" alt="">
+      </div>
+    </div>
+
+  <div class="lm-meimei-container" id="lm-meimei-toggle">
     <div class="lm-meimei lm-meimei--bw">
       <img src="./assets/images/meimei.png" >
     </div>
@@ -45,7 +68,14 @@
       <img src="./assets/images/meimeicolour.png" >
     </div>
   </div>
-  <div class="lm-maoche-container">
+
+  <div class="lm-meimei-popup" id="lm-meimei-toggle">
+    <div class="lm-meimei-popup-image">
+      <img src="./assets/images/meimeicolour2page.png" alt="">
+    </div>
+  </div>
+
+  <div class="lm-maoche-container" id="lm-maoche-toggle">
     <div class="lm-maoche lm-maoche--bw">
       <img src="./assets/images/maoche.png" >
     </div>
@@ -53,5 +83,12 @@
       <img src="./assets/images/maochecolour.png" >
     </div>
   </div>
+
+  <div class="lm-maoche-popup" id="lm-maoche-toggle">
+    <div class="lm-maoche-popup-image">
+      <img src="./assets/images/maochecolour2page.png" alt="">
+    </div>
+  </div>
+
 </body>
 </html>

@@ -10,7 +10,7 @@ img{
 }
 
 .lm-logo{
-  width:20%;
+  width:15%;
   margin:25;
 }
 
@@ -95,7 +95,7 @@ img{
 }
 
 .lm-longmao{
-  width: 30%;
+  width: 25%;
   position: fixed;
   bottom: 110px;
   left:30px;
@@ -105,26 +105,126 @@ img{
   width: 10%;
   position: fixed;
   bottom: 120px;
-  left:640px;
+  left:315px;
 }
 
 .lm-jiejie{
   width: 16%;
   position: fixed;
   bottom: 110px;
-  left:750px;
+  left:380px;
 }
 
 .lm-meimei{
   width: 9%;
   position: fixed;
   bottom: 110px;
-  left:1130px;
+  left:590px;
 }
 
 .lm-maoche{
-  width: 70%;
+  width: 60%;
   position: fixed;
   bottom: 100px;
-  left:1300px;
+  left: 710px;
+}
+
+.lm-meimei-popup {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lm-meimei-popup--open {
+  display: flex;
+}
+
+.lm-meimei-popup-image {
+  width: 50%;
+}
+
+.lm-maoche-popup {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lm-maoche-popup--open {
+  display: flex;
+}
+
+.lm-maoche-popup-image {
+  width: 50%;
+}
+
+.lm-jiejie-popup {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lm-jiejie-popup--open {
+  display: flex;
+}
+
+.lm-jiejie-popup-image {
+  width: 50%;
+}
+
+.lm-xiaomao-popup {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lm-xiaomao-popup--open {
+  display: flex;
+}
+
+.lm-xiaomao-popup-image {
+  width: 50%;
+}
+
+.lm-longmao-popup {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lm-longmao-popup--open {
+  display: flex;
+}
+
+.lm-longmao-popup-image {
+  width: 50%;
 }
